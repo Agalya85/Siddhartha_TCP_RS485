@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScratchFile FileVersion="3.0">
+  <FileVersion>3.0</FileVersion>
+  <Workspace>
+    <WorkspaceType>Single-project</WorkspaceType>
+    <WorkspacePath>D:\D Drive\D Drive\Projects\Embedded Development\Bluestar-Cold Storage\Workspace\Embedded C\Remote Config\Jan_2022\Cube_IDE\Bluestar_TCPMB485_RemoteUpdate\Bluestar_TCPMB485_RemoteUpdate\</WorkspacePath>
+    <underRoot>true</underRoot>
+    <TrustZone>0</TrustZone>
+    <HAL_Driver>C:\Users\Admin\STM32Cube\Repository\STM32Cube_FW_F4_V1.24.1</HAL_Driver>
+    <CMSIS>Drivers/CMSIS</CMSIS>
+    <Toolchain>STM32CubeIDE</Toolchain>
+    <IocFile>Bluestar_TCPMB485_RemoteUpdate.ioc</IocFile>
+    <Project>
+      <ProjectName>Bluestar_TCPMB485_RemoteUpdate</ProjectName>
+      <ProjectNature>C</ProjectNature>
+      <Secure />
+      <filestoremove>
+        <file>
+          <name>gpio.h</name>
+        </file>
+        <file>
+          <name>..\Src\custom.c</name>
+        </file>
+        <file>
+          <name>adc.h</name>
+        </file>
+        <file>
+          <name>dma.h</name>
+        </file>
+        <file>
+          <name>i2c.h</name>
+        </file>
+        <file>
+          <name>iwdg.h</name>
+        </file>
+        <file>
+          <name>lwip.h</name>
+        </file>
+        <file>
+          <name>lwipopts.h</name>
+        </file>
+        <file>
+          <name>ethernetif.h</name>
+        </file>
+        <file>
+          <name>rtc.h</name>
+        </file>
+        <file>
+          <name>tim.h</name>
+        </file>
+        <file>
+          <name>usart.h</name>
+        </file>
+        <file>
+          <name>stm32f4xx_it.h</name>
+        </file>
+        <file>
+          <name>stm32_assert.h</name>
+        </file>
+        <file>
+          <name>stm32f4xx_hal_conf.h</name>
+        </file>
+        <file>
+          <name>main.h</name>
+        </file>
+      </filestoremove>
+      <sourceEntriesToRemove>
+        <sourceEntry />
+      </sourceEntriesToRemove>
+      <configs>
+        <config>
+          <name>Bluestar_TCPMB485_RemoteUpdate</name>
+          <mainSourceRepo>Src</mainSourceRepo>
+          <sourceStructure>Basic</sourceStructure>
+          <device>STM32F437VITx</device>
+          <cpucore>Arm Cortex-M4</cpucore>
+          <fpu>SP</fpu>
+          <memories>
+            <memory access="xrw" name="RAM" size="192" start="0x20000000" />
+            <memory access="xrw" name="CCMRAM" size="64" start="0x10000000" />
+            <memory access="rx" name="FLASH" size="2048" start="0x8000000" />
+          </memories>
+          <startup>C:\Users\Admin\STM32Cube\Repository\STM32Cube_FW_F4_V1.24.1\Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\gcc\startup_stm32f437xx.s</startup>
+          <LinkSettings>
+            <LinkAdditionalLibs />
+          </LinkSettings>
+          <heapSize>0x200</heapSize>
+          <stackSize>0x400</stackSize>
+          <board>custom</board>
+          <debugprobe />
+          <optimization />
+          <Aincludes>
+            <include />
+          </Aincludes>
+          <Adefines />
+          <Cdefines>
+            <define>USE_FULL_LL_DRIVER</define>
+            <define>USE_HAL_DRIVER</define>
+            <define>STM32F437xx</define>
+          </Cdefines>
+          <Ldefines />
+          <Cincludes>
+            <include>Inc</include>
+            <include>Middlewares\Third_Party\LwIP\src\include</include>
+            <include>Middlewares\Third_Party\LwIP\system</include>
+            <include>Middlewares\Third_Party\LwIP\src\include</include>
+            <include>Middlewares\Third_Party\LwIP\system</include>
+            <include>Drivers\STM32F4xx_HAL_Driver\Inc</include>
+            <include>Drivers\STM32F4xx_HAL_Driver\Inc\Legacy</include>
+            <include>Middlewares\Third_Party\LwIP\src\include\netif\ppp</include>
+            <include>Drivers\CMSIS\Device\ST\STM32F4xx\Include</include>
+            <include>Middlewares\Third_Party\LwIP\src\include\lwip</include>
+            <include>Middlewares\Third_Party\LwIP\src\include\lwip\apps</include>
+            <include>Middlewares\Third_Party\LwIP\src\include\lwip\priv</include>
+            <include>Middlewares\Third_Party\LwIP\src\include\lwip\prot</include>
+            <include>Middlewares\Third_Party\LwIP\src\include\netif</include>
+            <include>Middlewares\Third_Party\LwIP\src\include\posix</include>
+            <include>Middlewares\Third_Party\LwIP\src\include\posix\sys</include>
+            <include>Middlewares\Third_Party\LwIP\system\arch</include>
+            <include>Drivers\CMSIS\Include</include>
+          </Cincludes>
+          <definestoremove>
+            <Adefines />
+            <Cdefines>
+              <define>MBEDTLS_CONFIG_FILE="mbedtls_config.h"</define>
+            </Cdefines>
+            <Ldefines />
+          </definestoremove>
+          <inctoremove>
+            <Aincludes>
+              <include />
+            </Aincludes>
+            <Cincludes />
+          </inctoremove>
+        </config>
+      </configs>
+      <copyAsReference>false</copyAsReference>
+      <sourceEntries>
+        <sourceEntry>
+          <name>Src</name>
+        </sourceEntry>
+        <sourceEntry>
+          <name>Drivers</name>
+        </sourceEntry>
+        <sourceEntry>
+          <name>Middlewares</name>
+        </sourceEntry>
+      </sourceEntries>
+      <Groups />
+    </Project>
+  </Workspace>
+</ScratchFile>
+
